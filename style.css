@@ -1,0 +1,1312 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+
+/* moving logo to top text  */
+.logo {
+    position: absolute;
+    height: auto;
+    left: 0px;
+    width: 70px;
+}
+
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 70px;
+    line-height: 60px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+}
+
+a {
+    display: block;
+    padding: 0 30px;
+    color: black;
+    text-decoration: none;
+    font-family: arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 70px;
+}
+
+.nav ul li a:hover {
+    color: red;
+}
+
+.searchbox {
+    position: absolute;
+    max-width: 130px;
+    height: 40px;
+    left: 1260px;
+    top: 23px;
+    border-radius: 20px;
+    background: rgba(0, 133, 255, 0.7);
+}
+
+
+.loginbox {
+    position: absolute;
+    width: 100px;
+    height: 35px;
+    left: 1395px;
+    top: 5px;
+    border-radius: 20px;
+    background: rgba(0, 133, 255, 0.7);
+}
+
+
+.login {
+    position: absolute;
+    width: 59.52px;
+    height: 23.34px;
+    left: 1415px;
+    top: 12.85px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+.signupbox {
+    position: absolute;
+    width: 100px;
+    height: 35px;
+    left: 1397px;
+    top: 45px;
+    border-radius: 20px;
+    background: rgba(0, 133, 255, 0.7);
+}
+
+.sign {
+    position: absolute;
+    width: 83.65px;
+    height: 23.34px;
+    left: 1415px;
+    top: 50.85px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.dream {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #824343;
+    text-indent: 100px;
+    font-size: 35px;
+    padding-top: 5%;
+    padding-left: 25px;
+    box-shadow:2px 2px 4px 2px rgba(0, 0, 0, 0.5);;
+}
+
+.games {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #824343;
+    text-indent: 100px;
+    font-size: 35px;
+    padding-top: 1%;
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.5);;
+    padding-left: 25px;
+
+}
+
+.valo {
+
+    position: absolute;
+    width: 600px;
+    height: 400px;
+    left: 900px;
+    top: 101px;
+    border-radius: 30px;
+    box-shadow: 2px 2px 5px 3px black;
+}
+
+.search {
+    position: absolute;
+    width: 74.59px;
+    height: 17.74px;
+    left: 1300px;
+    top: 30px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+
+}
+
+
+
+.rect {
+    width: 200px;
+    height: 70px;
+    background: black;
+    border-radius: 30px;
+    position: absolute;
+    left: 372px;
+    top: 329px;
+
+}
+
+.rect1 {
+    width: 200px;
+    height: 70px;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    position: absolute;
+    left: 128px;
+    top: 329px;
+}
+
+.rect1 {
+    position: absolute;
+    width: 173.11px;
+    height: 30.18px;
+    left: 145.3px;
+    top: 347.73px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.rect {
+    position: absolute;
+    width: 171.06px;
+    height: 30.18px;
+    left: 390.3px;
+    top: 350.73px;
+    color: white;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ao {
+    position: absolute;
+    width: 141.88px;
+    height: 18.56px;
+    left: 128.59px;
+    top: 433.7px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.playstation {
+
+    position: absolute;
+    width: 74px;
+    height: 61px;
+    left: 128px;
+    top: 464px;
+}
+
+.xbox {
+    position: absolute;
+    width: 56px;
+    height: 54px;
+    left: 222px;
+    top: 467px;
+}
+
+.windows {
+    position: absolute;
+    width: 58px;
+    height: 56px;
+    left: 301px;
+    top: 467px;
+}
+
+.moreinfo {
+    position: absolute;
+    width: 160px;
+    height: 40px;
+    left: 409px;
+    top: 475px;
+    border-radius: 20px;
+    background: #FF9A9A;
+}
+
+.mi a {
+    position: absolute;
+    width: 118px;
+    height: 33px;
+    left: 430px;
+    top: 480px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 25px;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tpg {
+    position: absolute;
+    width: 416.59px;
+    height: 39.63px;
+    left: 119.25px;
+    top: 563.01px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+
+}
+
+
+.gta {
+
+    position: absolute;
+    width: 438px;
+    height: 278px;
+    left: 7px;
+    top: 638px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px 3px black;
+}
+
+.forza {
+    position: absolute;
+    width: 450px;
+    height: 276px;
+    left: 525px;
+    top: 638px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px 3px black;
+}
+
+.mine {
+    position: absolute;
+    width: 450px;
+    height: 276px;
+    left: 1050px;
+    top: 638px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px 3px black;
+}
+
+.tfg {
+
+    position: absolute;
+    width: 417.77px;
+    height: 39.63px;
+    left: 101.25px;
+    top: 970.01px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.seemore1 {
+    position: absolute;
+    width: 140px;
+    height: 50px;
+    left: 1350px;
+    top: 582px;
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.sm1 {
+    position: absolute;
+    width: 150px;
+    height: 18.07px;
+    left: 1370px;
+    top: 592px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.dota {
+
+    position: absolute;
+    width: 438px;
+    height: 278px;
+    left: 7px;
+    top: 1043px;
+    box-shadow: 2px 2px 5px 3px black;
+    border-radius: 30px;
+
+}
+
+.seemore2 {
+    position: absolute;
+    width: 140px;
+    height: 50px;
+    left: 1350px;
+    top: 978px;
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.sm2 {
+    position: absolute;
+    width: 150px;
+    height: 18.07px;
+    left: 1370px;
+    top: 990px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pubg {
+    position: absolute;
+    width: 450px;
+    height: 278px;
+    left: 525px;
+    top: 1042px;
+    box-shadow: 2px 2px 5px 3px black;
+    border-radius: 30px;
+}
+
+.counter {
+    position: absolute;
+    width: 450px;
+    height: 278px;
+    left: 1050px;
+    top: 1038px;
+    box-shadow: 2px 2px 5px 3px black;
+    border-radius: 30px;
+}
+
+.nr {
+    position: absolute;
+    width: 271.89px;
+    height: 29.5px;
+    left: 102.2px;
+    top: 1395px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.seemore3 {
+    position: absolute;
+    width: 140px;
+    height: 50px;
+    left: 1350px;
+    top: 1413px;
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.sm3 {
+    position: absolute;
+    width: 150px;
+    height: 18.07px;
+    left: 1370px;
+    top: 1428px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.lightfall {
+    position: absolute;
+    width: 462px;
+    height: 265px;
+    left: 8px;
+    top: 1462px;
+    box-shadow: 2px 2px 5px 3px black;
+    border-radius: 30px;
+}
+
+.resident {
+    position: absolute;
+    width: 461px;
+    height: 258px;
+    left: 525px;
+    top: 1467px;
+    box-shadow: 2px 2px 5px 3px black;
+    border-radius: 30px;
+}
+
+.wwe {
+    position: absolute;
+    width: 453px;
+    height: 258px;
+    left: 1050px;
+    top: 1472px;
+    box-shadow: 2px 2px 5px 3px black;
+    border-radius: 30px;
+}
+
+.line {
+    position: absolute;
+    width: 1540px;
+    height: 0px;
+    left: 0px;
+    top: 1793px;
+    mix-blend-mode: darken;
+    border: 1px solid #000000;
+
+}
+
+.fuo {
+
+    position: absolute;
+    width: 200px;
+    height: 39px;
+    left: 44px;
+    top: 1812px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+}
+
+.youtube {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 35px;
+    top: 1874px;
+}
+
+.insta {
+
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 100px;
+    top: 1874px;
+}
+
+.tiktok {
+
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 165px;
+    top: 1874px;
+}
+
+.google {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 230px;
+    top: 1874px;
+}
+
+.arr {
+    position: absolute;
+    width: 195px;
+    height: 24px;
+    left: 537px;
+    top: 1806px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.cu {
+    position: absolute;
+    width: 191px;
+    height: 24px;
+    left: 565px;
+    top: 1843px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.email {
+    position: absolute;
+    width: 295px;
+    height: 30px;
+    left: 495px;
+    top: 1880px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.phone {
+    position: absolute;
+    width: 201px;
+    height: 24px;
+    left: 399px;
+    top: 1917px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.address {
+    position: absolute;
+    width: 300px;
+    height: 24px;
+    left: 600px;
+    top: 1917px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.ok {
+    position: absolute;
+    width: 264px;
+    height: 53px;
+    left: 1168px;
+    top: 1806px;
+
+    background: #FF9A9A;
+    border-radius: 20px;
+}
+
+
+.rf {
+    position: absolute;
+    width: 246px;
+    height: 39px;
+    left: 1178px;
+    top: 1813px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 39px;
+}
+
+
+.copyright {
+    position: absolute;
+    width: 95px;
+    height: 24px;
+    left: 1110px;
+    top: 1880px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+
+
+}
+
+.pp {
+    position: absolute;
+    width: 441px;
+    height: 39px;
+    left: 993px;
+    top: 1916px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 39px;
+}
+
+.c {
+    position: absolute;
+    width: 95px;
+    height: 24px;
+    left: 1200px;
+    top: 1880px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+
+}
+
+.gh {
+    position: absolute;
+    width: 203px;
+    height: 24px;
+    left: 1222px;
+    top: 1880px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+
+}
+
+.tou {
+    position: absolute;
+    width: 270px;
+    height: 39px;
+    left: 1250px;
+    top: 1916px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 39px;
+}
+
+@media (max-width: 430px) {
+
+    .logo {
+        position: absolute;
+        height: auto;
+        left: 1440px;
+        width: 100px;
+        top: 20px;
+    }
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        height: 70px;
+        line-height: 60px;
+        background-color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    li {
+        display: flex;
+    }
+
+    a {
+        display: block;
+        padding: 0 30px;
+        color: black;
+        text-decoration: none;
+        font-family: arial;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 70px;
+    }
+
+    .nav ul li a:hover {
+        color: red;
+    }
+
+    .searchbox {
+        position: absolute;
+        max-width: 500px;
+        height: 50px;
+        left: 800px;
+        top: 140px;
+        border-radius: 50px;
+        background: #FF9A9A;
+    }
+
+
+    .loginbox {
+        position: absolute;
+        max-width: 200px;
+        height: 50px;
+        left: 1050px;
+        top: 140px;
+        border-radius: 20px;
+        background: #D9D9D9;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .loginbox h3 {
+
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 12px;
+        display: flex;
+        align-items: flex-end;
+
+        color: #000000;
+
+    }
+
+
+    .signupbox {
+        position: absolute;
+        max-width: 400px;
+        height: 50px;
+        left: 1200px;
+        top: 140px;
+        border-radius: 20px;
+        background:  #D9D9D9;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .signupbox h3 {
+
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 12px;
+        display: flex;
+        align-items: flex-end;
+
+        color: #000000;
+
+    }
+
+    .valo {
+
+        position: absolute;
+        width: 700px;
+        height: 400px;
+        left: 800px;
+        top: 250px;
+        border-radius: 100px;
+        box-shadow: 2px 2px 5px 3px black;
+    }
+
+    .dream {
+        font-family: Arial, Helvetica, sans-serif;
+        color: #824343;
+        text-indent: 10px;
+        font-size: 30px;
+        padding-top: 5%;
+        padding-left: 25px;
+        box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.5);;
+    }
+
+
+    .games {
+        font-family: Arial, Helvetica, sans-serif;
+        color: #824343;
+        text-indent: 10px;
+        font-size: 30px;
+        padding-top: 20px;
+        box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.5);;
+        padding-left: 200px;
+    }
+
+    .rect {
+        width: 300px;
+        height: 100px;
+        background: black;
+        border-radius: 30px;
+        position: absolute;
+        left: 450px;
+        top: 250px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .rect h3 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 50px;
+        line-height: 17px;
+        /* identical to box height */
+        color: #FFFFFF;
+
+    }
+
+    .rect1 {
+        width: 300px;
+        height: 100px;
+        background: rgba(0, 0, 0, 0.1);
+        border-radius: 30px;
+        position: absolute;
+        left: 100px;
+        top: 250px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .rect1 h3 {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 50px;
+        line-height: 17px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #000000;
+
+    }
+
+    .ao {
+        position: absolute;
+        width: 200px;
+        height: 18.56px;
+        left: 128.59px;
+        top: 370px;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .playstation {
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        left: 120px;
+        top: 430px;
+    }
+    
+    .xbox {
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        left: 250px;
+        top: 430px;
+    }
+    
+    .windows {
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        left: 390px;
+        top: 430px;
+    }
+    
+    .moreinfo {
+        position: absolute;
+        width: 160px;
+        height: 40px;
+        left: 600px;
+        top: 475px;
+        border-radius: 20px;
+        background: #FF9A9A;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .mi a p {
+        position: absolute;
+        width: 118px;
+        height: 33px;
+        left: 700px;
+        top: 480px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .tpg {
+        position: absolute;
+        width: 500px;
+        height: 39.63px;
+        left: 100px;
+        top: 600px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+    }
+
+    .gta {
+
+        position: absolute;
+        width: 438px;
+        height: 278px;
+        left: 7px;
+        top: 700px;
+        border-radius: 50px;
+        box-shadow: 2px 2px 5px 3px black;
+    }
+    
+    .forza {
+        position: absolute;
+        width: 450px;
+        height: 276px;
+        left: 525px;
+        top: 700px;
+        border-radius: 50px;
+        box-shadow: 2px 2px 5px 3px black;
+    }
+    
+    .mine {
+        position: absolute;
+        width: 450px;
+        height: 276px;
+        left: 1050px;
+        top: 700px;
+        border-radius: 50px;
+        box-shadow: 2px 2px 5px 3px black;
+    }
+
+    .seemore1 {
+        position: absolute;
+        width: 140px;
+        height: 50px;
+        left: 1350px;
+        top: 1000px;
+        border-radius: 20px;
+        background:#FF9A9A;
+    }
+    
+    .sm1 {
+        position: absolute;
+        width: 150px;
+        height: 18.07px;
+        left: 1370px;
+        top: 1010px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .tfg {
+
+        position: absolute;
+        width: 500px;
+        height: 39.63px;
+        left: 101.25px;
+        top: 1050px;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    
+    
+    .dota {
+    
+        position: absolute;
+        width: 438px;
+        height: 278px;
+        left: 200px;
+        top: 1125px;
+        box-shadow: 2px 2px 5px 3px black;
+        border-radius: 50px;
+    
+    }
+    
+    .seemore2 {
+        position: absolute;
+        width: 140px;
+        height: 50px;
+        left: 1000px;
+        top: 1600px;
+        border-radius: 20px;
+        background: #FF9A9A;
+    }
+    
+    .sm2 {
+        position: absolute;
+        width: 150px;
+        height: 18.07px;
+        left: 1020px;
+        top: 1610px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .pubg {
+        position: absolute;
+        width: 438px;
+        height: 278px;
+        left: 800px;
+        top: 1125px;
+        box-shadow: 2px 2px 5px 3px black;
+        border-radius: 50px;
+    }
+    
+    .counter {
+        position: absolute;
+        width: 430px;
+        height: 278px;
+        left: 500px;
+        top: 1430px;
+        box-shadow: 2px 2px 5px 3px black;
+        border-radius: 50px;
+    }
+
+    .nr {
+        position: absolute;
+        width: 271.89px;
+        height: 29.5px;
+        left: 102.2px;
+        top: 1700px;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .seemore3 {
+        position: absolute;
+        width: 140px;
+        height: 50px;
+        left: 1350px;
+        top: 1690px;
+        border-radius: 20px;
+        background: #FF9A9A;
+    }
+    
+    .sm3 {
+        position: absolute;
+        width: 150px;
+        height: 18.07px;
+        left: 1360px;
+        top: 1695px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    
+    .lightfall {
+        position: absolute;
+        width: 462px;
+        height: 265px;
+        left: 8px;
+        top: 1750px;
+        box-shadow: 2px 2px 5px 3px black;
+        border-radius: 50px;
+    }
+    
+    .resident {
+        position: absolute;
+        width: 461px;
+        height: 258px;
+        left: 525px;
+        top: 1750px;
+        box-shadow: 2px 2px 5px 3px black;
+        border-radius: 50px;
+    }
+    
+    .wwe {
+        position: absolute;
+        width: 453px;
+        height: 258px;
+        left: 1050px;
+        top: 1750px;
+        box-shadow: 2px 2px 5px 3px black;
+        border-radius: 50px;
+    }
+    
+    .line {
+        position: absolute;
+        width: 1540px;
+        height: 0px;
+        left: 0px;
+        top: 2050px;
+        mix-blend-mode: darken;
+        border: 1px solid #000000;
+    
+    }
+    
+    .fuo {
+    
+        position: absolute;
+        width: 200px;
+        height: 39px;
+        left: 44px;
+        top: 2100px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 39px;
+    }
+    
+    .youtube {
+        position: absolute;
+        width: 60px;
+        height: 60px;
+        left: 35px;
+        top: 2150px;
+    }
+    
+    .insta {
+    
+        position: absolute;
+        width: 60px;
+        height: 60px;
+        left: 100px;
+        top: 2150px;
+    }
+    
+    .tiktok {
+    
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        left: 165px;
+        top: 2150px;
+    }
+    
+    .google {
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        left: 230px;
+        top: 2150px;
+    }
+    
+    .arr {
+        position: absolute;
+        width: 195px;
+        height: 24px;
+        left: 537px;
+        top: 2100px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+    }
+    
+    .cu {
+        position: absolute;
+        width: 191px;
+        height: 24px;
+        left: 565px;
+        top: 2135px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+    }
+    
+    .email {
+        position: absolute;
+        width: 295px;
+        height: 30px;
+        left: 495px;
+        top: 2170px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+    }
+    
+    .phone {
+        position: absolute;
+        width: 201px;
+        height: 24px;
+        left: 399px;
+        top: 2200px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+    }
+    
+    .address {
+        position: absolute;
+        width: 300px;
+        height: 24px;
+        left: 600px;
+        top: 2200px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+    }
+    
+    .ok {
+        position: absolute;
+        width: 264px;
+        height: 53px;
+        left: 1168px;
+        top: 2100px;
+        background: #FF9A9A;
+        border-radius: 20px;
+    }
+    
+    
+    .rf {
+        position: absolute;
+        width: 246px;
+        height: 39px;
+        left: 1178px;
+        top: 2100px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 39px;
+    }
+    
+    
+    
+    .pp {
+        position: absolute;
+        width: 441px;
+        height: 39px;
+        left: 993px;
+        top: 2200px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 39px;
+    }
+
+    .copyright {
+        position: absolute;
+        width: 95px;
+        height: 24px;
+        left: 1110px;
+        top: 2150px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+    
+    
+    }
+    
+    .c {
+        position: absolute;
+        width: 95px;
+        height: 24px;
+        left: 1200px;
+        top: 2150px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+    
+    }
+    
+    .gh {
+        position: absolute;
+        width: 203px;
+        height: 24px;
+        left: 1222px;
+        top: 2150px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+    
+    }
+    
+    .tou {
+        position: absolute;
+        width: 270px;
+        height: 39px;
+        left: 1250px;
+        top: 2200px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 39px;
+    }
+
+
+
+}

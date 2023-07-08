@@ -1,0 +1,467 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+.back {
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    left: 29px;
+    top: 21px;
+
+}
+
+.r {
+    position: absolute;
+    width: 380px;
+    height: 67px;
+    left: 104px;
+    top: 81px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 77px;
+
+    color: #824343;
+
+    text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.gta {
+    position: absolute;
+    width: 278px;
+    height: 159.31px;
+    left: 104px;
+    top: 192px;
+}
+
+.gtav {
+    position: absolute;
+    width: 933px;
+    height: 192px;
+    left: 427px;
+    top: 250px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration-line: underline;
+
+    color: #0085FF;
+}
+
+.apex {
+
+    position: absolute;
+    width: 278px;
+    height: 156.26px;
+    left: 104px;
+    top: 441px;
+
+}
+
+.apexlink {
+    position: absolute;
+    width: 933px;
+    height: 192px;
+    left: 427px;
+    top: 500px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration-line: underline;
+
+    color: #0085FF;
+}
+
+.gaming {
+
+    position: absolute;
+    width: 211px;
+    height: 211px;
+    left: 131px;
+    top: 684px;
+}
+
+.logo {
+    position: absolute;
+    width: 933px;
+    height: 192px;
+    left: 427px;
+    top: 750px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration-line: underline;
+
+    color: #0085FF;
+
+}
+
+.dota {
+    position: absolute;
+    width: 278px;
+    height: 159.31px;
+    left: 98px;
+    top: 982px;
+}
+
+.dotaimg {
+    position: absolute;
+    width: 933px;
+    height: 192px;
+    left: 427px;
+    top: 1040px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration-line: underline;
+
+    color: #0085FF;
+}
+
+.ninja {
+    position: absolute;
+    width: 278px;
+    height: 156.38px;
+    left: 96px;
+    top: 1197px;
+
+}
+
+.ninjalogo {
+    position: absolute;
+    width: 933px;
+    height: 192px;
+    left: 427px;
+    top: 1250px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration-line: underline;
+
+    color: #0085FF;
+}
+
+.valo {
+    position: absolute;
+    width: 278px;
+    height: 144.79px;
+    left: 98px;
+    top: 1429px;
+}
+
+.valoimg {
+    position: absolute;
+    width: 933px;
+    height: 192px;
+    left: 427px;
+    top: 1470px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration-line: underline;
+
+    color: #0085FF;
+}
+
+.forza {
+
+    position: absolute;
+    width: 278px;
+    height: 178.1px;
+    left: 98px;
+    top: 1665px;
+}
+
+.forzaimg {
+    position: absolute;
+    width: 933px;
+    height: 192px;
+    left: 427px;
+    top: 1730px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration-line: underline;
+
+    color: #0085FF;
+}
+
+.mine {
+    position: absolute;
+    width: 278px;
+    height: 156.51px;
+    left: 98px;
+    top: 1925px;
+
+}
+
+.mineimg {
+    position: absolute;
+    width: 933px;
+    height: 192px;
+    left: 427px;
+    top: 1975px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration-line: underline;
+
+    color: #0085FF;
+}
+
+.lightfall {
+
+    position: absolute;
+    width: 278px;
+    height: 159.31px;
+    left: 97px;
+    top: 2153px;
+}
+
+.lightfallimg {
+    position: absolute;
+    width: 933px;
+    height: 192px;
+    left: 427px;
+    top: 2200px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration-line: underline;
+
+    color: #0085FF;
+}
+
+.line {
+    position: absolute;
+    width: 1540px;
+    height: 0px;
+    left: 0px;
+    top: 2490px;
+    mix-blend-mode: darken;
+    border: 1px solid #000000;
+
+}
+
+.fuo {
+
+    position: absolute;
+    width: 200px;
+    height: 39px;
+    left: 44px;
+    top: 2525.5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+}
+
+.youtube {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 35px;
+    top: 2579.5px;
+}
+
+.insta {
+
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 100px;
+    top: 2579.5px;
+}
+
+.tiktok {
+
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 165px;
+    top: 2579.5px;
+}
+
+.google {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 230px;
+    top: 2579.5px;
+}
+
+.arr {
+    position: absolute;
+    width: 195px;
+    height: 24px;
+    left: 537px;
+    top: 2504px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.cu {
+    position: absolute;
+    width: 191px;
+    height: 24px;
+    left: 565px;
+    top: 2541px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.email {
+    position: absolute;
+    width: 295px;
+    height: 30px;
+    left: 495px;
+    top: 2578px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.phone {
+    position: absolute;
+    width: 201px;
+    height: 24px;
+    left: 399px;
+    top: 2615px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.address {
+    position: absolute;
+    width: 300px;
+    height: 24px;
+    left: 600px;
+    top: 2615px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+
+
+.copyright {
+    position: absolute;
+    width: 95px;
+    height: 24px;
+    left: 1110px;
+    top: 2569px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+
+
+}
+
+.pp {
+    position: absolute;
+    width: 441px;
+    height: 39px;
+    left: 993px;
+    top: 2605px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 39px;
+}
+
+.c {
+    position: absolute;
+    width: 95px;
+    height: 24px;
+    left: 1200px;
+    top: 2569px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+
+}
+
+.gh {
+    position: absolute;
+    width: 203px;
+    height: 24px;
+    left: 1222px;
+    top: 2569px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+
+}
+
+.tou {
+    position: absolute;
+    width: 441px;
+    height: 39px;
+    left: 1250px;
+    top: 2605px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 39px;
+}
